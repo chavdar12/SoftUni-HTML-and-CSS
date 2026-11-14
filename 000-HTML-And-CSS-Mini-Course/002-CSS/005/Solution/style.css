@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family: Lato, sans-serif;
 }
 
 form {
@@ -13,7 +13,7 @@ section {
 }
 
 section:nth-child(1) {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    background-image: linear-gradient(to bottom, rgb(245 246 252 / 52%), rgb(117 19 93 / 73%)),
     url("../Requirements-and-Resources/Images/peak.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ section:nth-child(1) h2 {
 }
 
 section:nth-child(1) p {
-    margin: 320px 0 0 0;
+    margin: 320px 0 0;
     text-align: center;
 }
 
@@ -45,11 +45,11 @@ section:nth-child(2) {
 }
 
 section:nth-child(2) label {
-    color: rgb(218, 217, 220);
+    color: rgb(218 217 220);
 }
 
 section:nth-child(2) input {
-    color: rgb(118, 115, 115);
+    color: rgb(118 115 115);
     border-top: none;
     border-right: none;
     border-left: none;

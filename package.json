@@ -1,0 +1,10 @@
+{
+  "name": "softuni-html-and-css",
+  "private": true,
+  "scripts": {
+    "test": "html-validate \"**/*.html\""
+  },
+  "devDependencies": {
+    "html-validate": "^11.21.1"
+  }
+}
