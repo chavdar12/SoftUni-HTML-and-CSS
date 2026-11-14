@@ -36,17 +36,17 @@ hr {
 }
 
 article th {
-    background-color: #CCCCCC;
+    background-color: #CCC;
     width: 144px;
     height: 32px;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #CCC;
     padding-left: 5px;
 }
 
 article td {
     width: 144px;
     height: 32px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #FFF;
     padding-left: 5px;
 }
 
@@ -60,7 +60,7 @@ body blockquote {
     margin-bottom: 10px;
     margin-left: 50px;
     padding-left: 15px;
-    border-left: 4px solid #DDDDDD;
+    border-left: 4px solid #DDD;
 }
 
 blockquote :last-of-type {

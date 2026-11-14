@@ -11,7 +11,7 @@ body {
 
 header, aside, main, footer {
     border-radius: 3px;
-    background-color: rgb(181, 216, 255);
+    background-color: rgb(181 216 255);
     padding: 5px 10px;
 }
 
@@ -38,13 +38,13 @@ header > h1 {
 
 aside > ul {
     list-style-type: none;
-    margin: 0px;
+    margin: 0;
     padding: 5px;
 }
 
 aside > ul > li > a {
     display: block;
-    padding: 5px 0px;
-    color: rgb(86, 40, 129);
+    padding: 5px 0;
+    color: rgb(86 40 129);
     text-decoration: none;
 }

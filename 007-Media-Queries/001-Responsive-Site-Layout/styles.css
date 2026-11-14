@@ -1,4 +1,4 @@
-@media (max-width: 500px) {
+@media (width <= 500px) {
     body {
         grid-template-areas:
             "header header"
@@ -18,14 +18,14 @@ header h1 {
 }
 
 .header {
-    background-color: rgb(181, 216, 255);
+    background-color: rgb(181 216 255);
     width: 300px;
     height: 80px;
     position: absolute;
 }
 
 .navigation {
-    background-color: rgb(181, 216, 255);
+    background-color: rgb(181 216 255);
     position: absolute;
     top: 100px;
     width: 300px;
@@ -40,7 +40,7 @@ header h1 {
     position: absolute;
     top: 200px;
     width: 300px;
-    background-color: rgb(181, 216, 255);
+    background-color: rgb(181 216 255);
     grid-area: main;
 }
 
@@ -48,5 +48,5 @@ footer p {
     position: absolute;
     top: 350px;
     width: 300px;
-    background-color: rgb(181, 216, 255);
+    background-color: rgb(181 216 255);
 }

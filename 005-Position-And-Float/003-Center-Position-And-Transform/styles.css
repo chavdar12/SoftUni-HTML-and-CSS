@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(238 238 238);
 }
 
 .card {
@@ -10,7 +10,7 @@ body {
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     max-width: 500px;
-    box-shadow: 0px 0px 82px -9px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 82px -9px rgb(0 0 0 / 100%);
 }
 
 
@@ -24,7 +24,7 @@ body {
 }
 
 .card > div:last-of-type {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255 255 255);
     margin-top: -23px;
     padding: 18px 44px;
     font-family: Georgia, serif;
@@ -43,8 +43,8 @@ body {
 }
 
 .card > div:last-of-type > button {
-    background-color: rgb(0, 153, 0);
-    border: 0px solid #fff;
+    background-color: rgb(0 153 0);
+    border: 0 solid #fff;
     border-radius: 3px;
     color: #fff;
     padding: 8px 15px;

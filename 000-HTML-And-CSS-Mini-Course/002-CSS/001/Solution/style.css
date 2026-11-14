@@ -1,5 +1,5 @@
 body {
-    font-family: "Helvetica",
+    font-family: Helvetica,
     sans-serif;
     margin: 0;
     padding: 0 15rem;
@@ -58,7 +58,7 @@ main section:nth-child(1) h1 {
     font-size: 25px;
     text-align: center;
     padding: 3px;
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 
 main section:nth-child(1) span {

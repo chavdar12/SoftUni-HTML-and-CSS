@@ -1,7 +1,7 @@
 #wrapper {
     width: 700px;
     height: 730px;
-    border: 1px solid #000000;
+    border: 1px solid #000;
     margin: 0 auto;
     padding: 10px 20px;
     background-color: #a6e1ec;
@@ -31,7 +31,7 @@ li {
     padding: 10px;
     margin-bottom: 5px;
     font-size: 14px;
-    border: 1px solid #000000;
+    border: 1px solid #000;
     list-style-type: none;
     font-weight: bold;
 }

@@ -6,7 +6,7 @@
 
 body {
     margin: 60px auto;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(238 238 238);
     font-family: Helvetica, sans-serif;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .card {
-    background-color: #FFFFFF;
+    background-color: #FFF;
     border: 1px solid gray;
     border-radius: 12px;
     box-shadow: 1px 1px 1px gray;

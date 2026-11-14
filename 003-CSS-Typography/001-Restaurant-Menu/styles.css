@@ -3,7 +3,7 @@ body {
 }
 
 article h1 {
-    font-family: Sentinel A, Sentinel B, Georgia, Times New Roman, Times, serif;
+    font-family: "Sentinel A", "Sentinel B", Georgia, "Times New Roman", Times, serif;
     font-weight: 400;
     line-height: 1.15;
     color: #747474;
@@ -18,12 +18,12 @@ article p {
 }
 
 article span {
-    font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Graphik Semibold Web", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: oblique;
     font-weight: 600;
 }
 
 article p {
-    font-family: Graphik Regular Web, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Graphik Regular Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
 }

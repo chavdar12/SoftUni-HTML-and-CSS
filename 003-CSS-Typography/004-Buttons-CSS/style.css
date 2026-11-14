@@ -2,7 +2,7 @@
 
 body {
     margin: 60px;
-    background: rgb(251, 251, 251);
+    background: rgb(251 251 251);
 }
 
 a,
@@ -14,35 +14,34 @@ button {
 
 a {
     text-decoration: none;
-    color: rgb(51, 51, 51);
+    color: rgb(51 51 51);
 }
 
 .hover {
-    color: rgb(51, 51, 51);
+    color: rgb(51 51 51);
 }
 
 .button {
     padding: 8px 16px;
     border-radius: 45px;
-    border: none;
     font-size: 15px;
     margin-right: 10px;
-    border: 3px solid rgb(51, 51, 51);
-    background: rgb(251, 251, 251);
+    border: 3px solid rgb(51 51 51);
+    background: rgb(251 251 251);
 }
 
 .button.hover:hover {
-    background: rgb(251, 251, 251);
-    border-color: rgb(0, 102, 0);
-    color: rgb(0, 102, 0);
+    background: rgb(251 251 251);
+    border-color: rgb(0 102 0);
+    color: rgb(0 102 0);
 }
 
 .button.button.fill:hover {
-    background: rgb(0, 102, 0);
-    color: rgb(251, 251, 251);
+    background: rgb(0 102 0);
+    color: rgb(251 251 251);
 }
 
 .fill {
-    background: rgb(51, 51, 51);
-    color: rgb(251, 251, 251);
+    background: rgb(51 51 51);
+    color: rgb(251 251 251);
 }

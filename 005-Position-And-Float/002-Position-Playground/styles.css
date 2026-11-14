@@ -19,22 +19,22 @@ body {
 
 .viewport:first-of-type {
     background: linear-gradient(90deg,
-    rgba(27, 97, 157, 1) 0%,
-    rgba(44, 142, 159, 1) 50%,
-    rgba(65, 202, 162, 1) 100%);
+    rgb(27 97 157 / 100%) 0%,
+    rgb(44 142 159 / 100%) 50%,
+    rgb(65 202 162 / 100%) 100%);
 }
 
 .viewport:last-of-type {
     background: linear-gradient(90deg,
-    rgba(169, 51, 119, 1) 0%,
-    rgba(189, 90, 70, 1) 50%,
-    rgba(210, 130, 20, 1) 100%);
+    rgb(169 51 119 / 100%) 0%,
+    rgb(189 90 70 / 100%) 50%,
+    rgb(210 130 20 / 100%) 100%);
 }
 
 .viewport .card img {
     width: 350px;
     border-radius: 4px;
-    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.9) inset;
+    box-shadow: 20px 20px 20px 20px rgb(0 0 0 / 90%) inset;
 }
 
 .viewport .card i {

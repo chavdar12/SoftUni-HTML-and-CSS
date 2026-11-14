@@ -11,8 +11,7 @@ html {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-flow: column wrap;
     max-width: 15vw;
     height: 35rem;
     padding: 80px;

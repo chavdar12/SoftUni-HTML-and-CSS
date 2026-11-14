@@ -6,7 +6,7 @@ main > section {
 
 main > section > div > h3 {
     font-size: 16px;
-    margin: 0px;
+    margin: 0;
 }
 
 main > section > div > h3 > span {

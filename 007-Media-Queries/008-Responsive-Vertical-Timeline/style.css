@@ -9,7 +9,7 @@ body {
 }
 
 .timeline {
-    border: 0.3rem solid rgb(153, 153, 153);
+    border: 0.3rem solid rgb(153 153 153);
     margin: 1rem;
     padding: 1rem;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 /* Desktop: alternate the articles on both sides of a central line. */
-@media (min-width: 768px) {
+@media (width >= 768px) {
     .timeline {
         position: relative;
         max-width: 60rem;
@@ -40,7 +40,7 @@ body {
         top: 0;
         bottom: 0;
         left: 50%;
-        border-left: 0.3rem solid rgb(153, 153, 153);
+        border-left: 0.3rem solid rgb(153 153 153);
     }
 
     .timeline article {

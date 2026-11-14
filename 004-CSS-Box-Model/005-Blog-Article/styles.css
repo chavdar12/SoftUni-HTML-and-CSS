@@ -22,7 +22,7 @@ body > article > div > span:first-child {
     font-size: 14px;
     text-align: center;
     padding: 3px 5px;
-    margin: 0px auto;
+    margin: 0 auto;
     background-color: #fff;
     display: block;
     position: relative;

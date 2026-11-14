@@ -67,8 +67,8 @@ header {
 }
 
 .need-a-website-section .description {
-
     font-size: 1.5rem;
+
     /* font-weight: bold; */
 
 }
@@ -76,7 +76,7 @@ header {
 .need-a-website-section .text {
     font-size: 0.8rem;
     line-height: 1.5;
-    padding: 10px 0px;
+    padding: 10px 0;
     margin-bottom: 10px;
 }
 
@@ -103,7 +103,7 @@ span {
 .our-team-section .team {
     width: 30%;
     font-size: 1.5rem;
-    padding: 20px 20px;
+    padding: 20px;
     margin-bottom: 20px;
     flex-basis: 95%;
     text-align: center;
@@ -155,7 +155,7 @@ blockquote {
 }
 
 .newsletter-section form {
-    padding: 20px 20px;
+    padding: 20px;
 }
 
 .newsletter-section input {
@@ -180,7 +180,7 @@ blockquote {
 .testimonials-section .testimonials {
     width: 30%;
     font-size: 1.5rem;
-    padding: 20px 20px;
+    padding: 20px;
     margin-bottom: 20px;
     flex-basis: 95%;
     text-align: center;
