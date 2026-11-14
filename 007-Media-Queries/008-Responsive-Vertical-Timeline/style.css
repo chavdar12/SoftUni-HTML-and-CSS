@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.timeline {
+    border: 0.3rem solid rgb(153, 153, 153);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.timeline article {
+    background: white;
+    border-left: 0.3rem solid #1abc9c;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.timeline h3 {
+    font-style: italic;
+    margin: 0 0 0.5rem;
+}
+
+/* Desktop: alternate the articles on both sides of a central line. */
+@media (min-width: 768px) {
+    .timeline {
+        position: relative;
+        max-width: 60rem;
+        margin: 2rem auto;
+    }
+
+    .timeline::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        border-left: 0.3rem solid rgb(153, 153, 153);
+    }
+
+    .timeline article {
+        width: 45%;
+    }
+
+    .timeline article:nth-child(even) {
+        margin-left: 55%;
+    }
+}
